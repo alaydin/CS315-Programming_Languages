@@ -1,0 +1,116 @@
+//declaration statement
+int palpatine;
+bool b;
+defSet setPalp;
+const bool b;
+
+//assign_stmt
+palpatine = 5;
+palpatine = 3 + 7 * 5;
+palpatine = set1;
+palpatine = set1 ? set2;
+palpatine = set1 *+ set2;
+palpatine = set1 *+ set2 *% set3;
+palpatine = func1();
+palpatine = func1() + 10;
+palpatine = func2() * func1() + 10.2;
+palpatine = vaderGets() * func1() + 10;
+palpatine = vaderGets() * (func1() + 10);
+
+//declaration_togetherInit
+bool a  = true;
+string b = "erikli";
+double c = 3.0;
+string ObiWan = "Obi-Wan";
+string ObiWan = "Obi-Wan" + "Kenobi";
+int palpatine = 5;
+int palpatine = 3 + 7 * 5;
+int palpatine = func1();
+int palpatine = func1() + 10;
+int palpatine = func2() * func1() + 10.2;
+int palpatine = vaderGets() * func1() + 10;
+int palpatine = vaderGets() * (func1() + 10);
+double f = -3.0;
+const int e = -3;
+
+
+if(d < 5){
+	a = 3 + 5;
+	return d;
+}
+else{
+	return c;
+}
+if(d == 5){
+	return d;
+}
+else{
+	return c;
+}
+if(d > 5){
+	return d;
+}
+else{
+	return c;
+}
+if(d >= 5){
+	return d;
+}
+else{
+	return c;
+}
+if(d <= 5){
+	return d;
+}
+else{
+	return c;
+}
+if(d != 5){
+	return d;
+}
+else{
+	return c;
+}
+
+while(d < 5)
+{
+	return 2;
+}
+
+vaderGets()
+vaderGives("I am your mother")
+
+
+defSet senate[];
+defSet senate2[3];
+
+defSet senate3[2] = {1,2};
+
+defSet senate4[] = senate3 *+ senate2;	//union
+defSet senate5[] = senate3 */ senate2;	// diff
+defSet senate6[] = senate3 *% senate2;	//intersection
+defSet senate7[] = ~senate3;		//set complement
+bool a = senate3 ? senate4;		//subset
+bool b = senate3 $ senate4;		//superset
+defSet senate8[] = senate3 ** senate2;	//cartesian product
+
+delSet senate6;				//deletion
+
+//func_stmt
+void random(){;}
+void random(){
+	int a = asd();
+}
+int random(int a){
+	int a = a + b;
+	return 10;
+}
+int random(int a, bool b){
+	int a = a + b;
+	return 10;
+}
+
+int a = 5;
+int b;
+a = a / b;
+a = a * b;
